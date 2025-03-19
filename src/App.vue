@@ -131,14 +131,14 @@ a {
   border-radius: 4px;
 }
 .dark-mode ::-webkit-scrollbar-track {
-  background: #425057;
+  background: transparent;
 }
 /*track hover*/
 ::-webkit-scrollbar-track:hover {
   background: #e0e0dd;
 }
 .dark-mode ::-webkit-scrollbar-track:hover {
-  background: #495961;
+  background: transparent;
 }
 /*thumb*/
 ::-webkit-scrollbar-thumb {
@@ -146,14 +146,14 @@ a {
   background: #c1c1c1;
 }
 .dark-mode ::-webkit-scrollbar-thumb {
-  background: #5a6f7a;
+  background: #3e3e3e;
 }
 /*thumb hover*/
 ::-webkit-scrollbar-thumb:hover {
   background: #7f7f7f;
 }
 .dark-mode ::-webkit-scrollbar-thumb:hover {
-  background: #6a838f;
+  background: #4d4d4d;
 }
 /*scrollbar style end*/
 

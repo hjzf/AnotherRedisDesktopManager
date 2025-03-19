@@ -466,10 +466,10 @@ export default {
 
 /*focus status darkmode*/
 .dark-mode .key-list-vtree .vue-recycle-scroller::-webkit-scrollbar-thumb:hover {
-  background: #6a838f;
+  background: #4d4d4d;
 }
 .dark-mode .key-list-vtree .vue-recycle-scroller::-webkit-scrollbar-track:hover {
-  background: #495961;
+  background: transparent;
 }
 /*vtree scrollbat style end*/
 
@@ -488,7 +488,7 @@ export default {
   background-color: #e7e7e7;
 }
 .dark-mode .key-list-vtree .el-tree-node > .el-tree-node__content:hover {
-  background-color: #50616b;
+  background-color: #2a2d2e;
 }
 
 /*current select node color*/
@@ -496,7 +496,7 @@ export default {
   background-color: #d4d4d4;
 }
 .dark-mode .key-list-vtree .el-tree-node.is-current > .el-tree-node__content {
-  background-color: #50616b;
+  background-color: #2e436e;
 }
 
 /*inner custom node item*/
