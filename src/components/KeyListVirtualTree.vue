@@ -485,7 +485,7 @@ export default {
 }
 /*node hover color*/
 .key-list-vtree .el-tree-node > .el-tree-node__content:hover {
-  background-color: #e7e7e7;
+  background-color: #f2f3f4;
 }
 .dark-mode .key-list-vtree .el-tree-node > .el-tree-node__content:hover {
   background-color: #2a2d2e;
@@ -493,7 +493,7 @@ export default {
 
 /*current select node color*/
 .key-list-vtree .el-tree-node.is-current > .el-tree-node__content {
-  background-color: #d4d4d4;
+  background-color: #eceef0;
 }
 .dark-mode .key-list-vtree .el-tree-node.is-current > .el-tree-node__content {
   background-color: #2e436e;
@@ -535,7 +535,7 @@ export default {
 
 /*folder icon*/
 .key-list-vtree .key-list-custom-node .fa {
-  color: #848a90;
+  color: #54aeff;
   font-size: 115%;
 }
 .dark-mode .key-list-vtree .key-list-custom-node .fa {
@@ -544,7 +544,7 @@ export default {
 
 /*folder keys count*/
 .key-list-vtree .key-list-count {
-  color: #848a90;
+  color: #1f1f1f;
   float: right;
 }
 .dark-mode .key-list-vtree .key-list-count {
