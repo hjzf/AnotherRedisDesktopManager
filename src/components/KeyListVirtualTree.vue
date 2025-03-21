@@ -485,7 +485,7 @@ export default {
 }
 /*node hover color*/
 .key-list-vtree .el-tree-node > .el-tree-node__content:hover {
-  background-color: #f2f3f4;
+  background-color: #fafafa;
 }
 .dark-mode .key-list-vtree .el-tree-node > .el-tree-node__content:hover {
   background-color: #2a2d2e;
@@ -493,7 +493,7 @@ export default {
 
 /*current select node color*/
 .key-list-vtree .el-tree-node.is-current > .el-tree-node__content {
-  background-color: #eceef0;
+  background-color: #ecf5ff;
 }
 .dark-mode .key-list-vtree .el-tree-node.is-current > .el-tree-node__content {
   background-color: #2e436e;

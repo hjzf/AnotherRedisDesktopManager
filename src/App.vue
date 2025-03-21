@@ -235,6 +235,20 @@ li .list-index {
   to{ transform: rotate(360deg); }
 }
 
+/*vxe-table color*/
+html {
+  --vxe-ui-table-header-background-color: #fafafa !important;
+  --vxe-ui-layout-background-color: #ffffff !important;
+  --vxe-ui-table-row-striped-background-color: #fafafa!important;
+  --vxe-ui-table-row-hover-background-color: #f2f8ff !important;
+  --vxe-ui-table-row-hover-striped-background-color: #f2f8ff !important;
+  /*border color*/
+  --vxe-ui-table-border-color: #e4e0e0 !important;
+  /*font color*/
+  --vxe-ui-font-color: #000000 !important;
+  --vxe-ui-table-header-font-color: #000000 !important;
+}
+
 /*vxe-table dark-mode color*/
 html .dark-mode {
   --vxe-ui-table-header-background-color: #2a2d2e !important;
