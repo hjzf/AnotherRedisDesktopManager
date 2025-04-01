@@ -129,13 +129,13 @@ export default {
     border-radius: 4px;
   }
   .dark-mode .cli-content-container .monaco-editor .scrollbar {
-    background: #425057;
+    background: transparent;
   }
   .cli-content-container .monaco-editor .scrollbar:hover {
     background: #e0e0dd;
   }
   .dark-mode .cli-content-container .monaco-editor .scrollbar:hover {
-    background: #495961;
+    background: transparent;
   }
 
   .cli-content-container .monaco-editor-con .monaco-editor .slider {
@@ -143,13 +143,13 @@ export default {
     background: #c1c1c1;
   }
   .dark-mode .cli-content-container .monaco-editor-con .monaco-editor .slider {
-    background: #5a6f7a;
+    background: #3e3e3e;
   }
   .cli-content-container .monaco-editor-con .monaco-editor .slider:hover {
     background: #7f7f7f;
   }
   .dark-mode .cli-content-container .monaco-editor-con .monaco-editor .slider:hover {
-    background: #6a838f;
+    background: #4d4d4d;
   }
 
   /*remove background color*/

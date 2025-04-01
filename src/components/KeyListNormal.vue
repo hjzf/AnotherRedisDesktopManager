@@ -83,7 +83,7 @@ export default {
   }
   .dark-mode .connection-menu .key-list .key-item:hover {
     color: #f7f7f7;
-    background: #50616b;
+    background: #2a2d2e;
   }
   .connection-menu .key-list .key-item.key-select {
     color: #0b7ff7;
@@ -94,6 +94,6 @@ export default {
   }
   .dark-mode .connection-menu .key-list .key-item.key-select {
     color: #f7f7f7;
-    background: #50616b;
+    background: #2e436e;
   }
 </style>

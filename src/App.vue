@@ -131,14 +131,14 @@ a {
   border-radius: 4px;
 }
 .dark-mode ::-webkit-scrollbar-track {
-  background: #425057;
+  background: transparent;
 }
 /*track hover*/
 ::-webkit-scrollbar-track:hover {
   background: #e0e0dd;
 }
 .dark-mode ::-webkit-scrollbar-track:hover {
-  background: #495961;
+  background: transparent;
 }
 /*thumb*/
 ::-webkit-scrollbar-thumb {
@@ -146,14 +146,14 @@ a {
   background: #c1c1c1;
 }
 .dark-mode ::-webkit-scrollbar-thumb {
-  background: #5a6f7a;
+  background: #3e3e3e;
 }
 /*thumb hover*/
 ::-webkit-scrollbar-thumb:hover {
   background: #7f7f7f;
 }
 .dark-mode ::-webkit-scrollbar-thumb:hover {
-  background: #6a838f;
+  background: #4d4d4d;
 }
 /*scrollbar style end*/
 
@@ -235,13 +235,27 @@ li .list-index {
   to{ transform: rotate(360deg); }
 }
 
+/*vxe-table color*/
+html {
+  --vxe-ui-table-header-background-color: #fafafa !important;
+  --vxe-ui-layout-background-color: #ffffff !important;
+  --vxe-ui-table-row-striped-background-color: #fafafa!important;
+  --vxe-ui-table-row-hover-background-color: #f2f8ff !important;
+  --vxe-ui-table-row-hover-striped-background-color: #f2f8ff !important;
+  /*border color*/
+  --vxe-ui-table-border-color: #e4e0e0 !important;
+  /*font color*/
+  --vxe-ui-font-color: #000000 !important;
+  --vxe-ui-table-header-font-color: #000000 !important;
+}
+
 /*vxe-table dark-mode color*/
 html .dark-mode {
-  --vxe-ui-table-header-background-color: #273239 !important;
-  --vxe-ui-layout-background-color: #273239 !important;
-  --vxe-ui-table-row-striped-background-color: #3b4b54 !important;
-  --vxe-ui-table-row-hover-background-color: #3b4b54 !important;
-  --vxe-ui-table-row-hover-striped-background-color: #50646f !important;
+  --vxe-ui-table-header-background-color: #2a2d2e !important;
+  --vxe-ui-layout-background-color: #2a2d2e !important;
+  --vxe-ui-table-row-striped-background-color: #1f1f1f !important;
+  --vxe-ui-table-row-hover-background-color: #2e436e !important;
+  --vxe-ui-table-row-hover-striped-background-color: #2e436e !important;
   /*border color*/
   --vxe-ui-table-border-color: #7f8ea5 !important;
   /*font color*/
